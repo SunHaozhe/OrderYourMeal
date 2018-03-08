@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Qt Creator
+*
+!.cpp
+!.h
+!README.md
