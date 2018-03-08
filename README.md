@@ -1,2 +1,4 @@
 # OrderYourMeal
-Ordering system for restaurants
+Prototype for an ordering system of restaurants
+<br>
+Human–Computer Interaction team project
