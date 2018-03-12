@@ -35,4 +35,6 @@
 *
 !.cpp
 !.h
+!.ui
+!.pro
 !README.md
