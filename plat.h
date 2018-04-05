@@ -20,6 +20,8 @@ public:
     QString imgpath;
     int price;
 
+    const static int minh=170;
+
 
 
 signals:

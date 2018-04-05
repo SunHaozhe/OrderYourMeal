@@ -9,7 +9,7 @@ plat::plat(QWidget *parent, QString n, QString p, int pr) : QFrame(parent)
     img=new QLabel(this);
     img->setGeometry(10,10,281,101);
     this->setSizePolicy(QSizePolicy::Preferred,QSizePolicy::Maximum);
-    this->setMinimumHeight(170);
+    this->setMinimumHeight(minh);
     this->setFrameShape(QFrame::Box);
     this->setFrameShadow(QFrame::Plain);
 

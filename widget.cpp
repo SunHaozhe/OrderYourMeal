@@ -76,9 +76,18 @@ Widget::Widget(QWidget *parent, int tn) :
 
     }
 
+    ui->scrollAreaWidgetContents->setMinimumHeight(menutype[0]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_2->setMinimumHeight(menutype[1]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_3->setMinimumHeight(menutype[2]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_4->setMinimumHeight(menutype[3]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_6->setMinimumHeight(menutype[4]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_7->setMinimumHeight(menutype[5]->count()*plat::minh);
+    ui->scrollAreaWidgetContents_8->setMinimumHeight(menutype[6]->count()*plat::minh);
+
 
     for(int i=0;i<7;i++)
     {
+
         QSpacerItem* si=new QSpacerItem(20,20,QSizePolicy::Expanding,QSizePolicy::Expanding);
 
         menutype[i]->addSpacerItem(si);
