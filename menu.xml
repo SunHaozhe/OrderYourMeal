@@ -1,0 +1,156 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--  This is the data for a electronic menu  -->
+<!--Zifei: delete the euro symbol to avoid encodage problem-->
+<menu>
+  <entree>
+    <nom>salade de thon</nom>
+    <ingredient>thon,legumes,vinaigre,sel</ingredient>
+    <description>Best salade ever!!!</description>
+    <prix>8</prix>
+    <calorie>130</calorie>
+    <etoile>4</etoile>
+    <image>:xml/image/salade de thon.jpg</image>
+  </entree>
+  <entree>
+    <nom>Huitre</nom>
+    <ingredient>huitre,vinaigre,sel</ingredient>
+    <description>Endirect du producteur</description>
+    <prix>12</prix>
+    <calorie>100</calorie>
+    <etoile>5</etoile>
+    <image>:xml/image/Huitre.jpg</image>
+  </entree>
+  <entree>
+    <nom>foie gras</nom>
+    <ingredient>canard,pain</ingredient>
+    <description>Eleve en plien air</description>
+    <prix>20</prix>
+    <calorie>600</calorie>
+    <etoile>5</etoile>
+    <image>:xml/image/Foie gras.jpg</image>
+  </entree>
+
+
+  <plat>
+    <nom>Boeuf bourguignon</nom>
+    <ingredient>Boeuf,vin,tomates</ingredient>
+    <description>la cuisine traditionnelle bourguignonne</description>
+    <prix>15</prix>
+    <calorie>250</calorie>
+    <etoile>5</etoile>
+    <image>:xml/image/Boeuf bourguignon.jpg</image>
+  </plat>
+
+  <plat>
+    <nom>Confit de canard et haricots</nom>
+    <ingredient>canard,viande,haricot</ingredient>
+    <description>EN direct des landes</description>
+    <prix>15</prix>
+    <calorie>250</calorie>
+    <etoile>5</etoile>
+    <image>:xml/image/Confit de canard et haricots.jpg</image>
+  </plat>
+  <plat>
+    <nom>kebab</nom>
+    <ingredient>viande,agneau,pain,ketchup,salade,tomate</ingredient>
+    <description>Specialite de la maison</description>
+    <prix>5</prix>
+    <calorie>700</calorie>
+    <etoile>3</etoile>
+    <image>:xml/image/kebab.png</image>
+  </plat>
+  <plat>
+    <nom>pizza 4 fromages</nom>
+    <ingredient>pain,tomate,fromage</ingredient>
+    <description>Comme en italie</description>
+    <prix>9</prix>
+    <calorie>300</calorie>
+    <etoile>2</etoile>
+    <image>:xml/image/pizza 4 fromages.png</image>
+  </plat>
+
+  <dessert>
+    <nom>mouse au chocolat</nom>
+    <ingredient>chocolat,lait</ingredient>
+    <description>onctueuse et parfumée</description>
+    <prix>6</prix>
+    <calorie>300</calorie>
+    <etoile>4</etoile>
+    <image>:xml/image/mouse au chocolat.jpg</image>
+  </dessert>
+  <dessert>
+    <nom>tarte aux pommes</nom>
+    <ingredient>lait,pommes</ingredient>
+    <description>Comme chez mamie</description>
+    <prix>8</prix>
+    <calorie>200</calorie>
+    <etoile>2</etoile>
+    <image>:xml/image/tarte aux pommes.jpeg</image>
+  </dessert>
+  <dessert>
+    <nom>creme brulee</nom>
+    <ingredient>lait,oeuf,caramel</ingredient>
+    <description>Hesitez pas a demander le niveau de brulage</description>
+    <prix>5</prix>
+    <calorie>300</calorie>
+    <etoile>2</etoile>
+    <image>:xml/image/creme brulee.jpg</image>
+  </dessert>
+
+  <boisson>
+    <nom>vin rouge</nom>
+    <prix>20</prix>
+    <description>Villageoise de qualite</description>
+    <etoile>5</etoile>
+    <taille>25,50,100</taille>
+    <alcool>4</alcool>
+    <image>:xml/image/vin rouge.jpg</image>
+  </boisson>
+  <boisson>
+    <nom>vin blanc</nom>
+    <prix>19</prix>
+    <description>Villageoise classique</description>
+    <etoile>4</etoile>
+    <taille>25,50,100</taille>
+    <alcool>3</alcool>
+    <image>:xml/image/vin blanc.jpg</image>
+  </boisson>
+  <boisson>
+    <nom>biere</nom>
+    <prix>10</prix>
+    <description>Delirium ou leffe</description>
+    <etoile>4</etoile>
+    <taille>25,50</taille>
+    <alcool>3</alcool>
+    <image>:xml/image/biere.jpg</image>
+  </boisson>
+  <boisson>
+    <nom>jus d'orange</nom>
+    <prix>10</prix>
+    <description>En canette</description>
+    <etoile>3</etoile>
+    <taille>33</taille>
+    <alcool>0</alcool>
+    <image>:xml/image/jus d'orange.jpg</image>
+  </boisson>
+  <boisson>
+    <nom>coca</nom>
+    <prix>10</prix>
+    <description>En canette</description>
+    <etoile>4</etoile>
+    <taille>33,50,100</taille>
+    <alcool>0</alcool>
+    <image>:xml/image/coca.jpg</image>
+  </boisson>
+
+  <plat_du_jour>
+    <prix>20</prix>
+    <entree_>Huitre</entree_>
+    <plat_>Confit de canard et haricots</plat_>
+    <dessert_>creme brulee</dessert_>
+    <vin_>vin rouge</vin_>
+    <image>:xml/image/platDuJour.jpg</image>
+  </plat_du_jour>
+
+</menu>

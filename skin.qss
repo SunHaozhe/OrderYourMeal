@@ -1,0 +1,142 @@
+﻿#HomePage {
+border-image: url(:/myImages/image/background.jpg);
+}
+
+
+QListView::item:selected {
+     border: 1px solid #6a6ea9;
+}
+
+QListView::item:selected:!active {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #ABAFE5, stop: 1 #8588B2);
+}
+
+
+QListView::item:selected:active {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #6a6ea9, stop: 1 #888dd9);
+}
+
+QProgressBar{
+    color : solid gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: transparent;
+    padding: 0px;
+    text-align : center ;
+}
+QProgressBar::chunk{
+    background: #B22222;
+}
+
+
+QScrollBar:add-page
+{
+     background-color: rgba(0,0,0,255);
+}
+
+QScrollBar:sub-page
+{
+     background-color: rgba(0,0,0,255);
+}
+
+ QScrollBar::add-line:vertical  {
+
+     background-color: rgba(43,45,31,255);
+     height: 15px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical  {
+
+     background-color: rgba(43,45,31,255);
+     height: 15px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+QScrollBar::handle:vertical    {
+    border : 2px solid gray;
+    border-radius: 6px;
+    background-color: solid gray;
+    min-height : 12px;
+}
+
+QMenu[private_pile="true"]{
+    background-color: rgba(43,63,53,200);
+    border-radius: 1px;
+    color: white;
+}
+
+QPushButton[private_pile="true"]{
+    background-color: rgba(43,63,53,200);
+    border-radius: 1px;
+    color: white;
+}
+
+ QPushButton#evilButton {
+     background-color: red;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 10em;
+     padding: 6px;
+ }
+ QPushButton#evilButton:pressed {
+     background-color: rgb(224, 0, 0);
+     border-style: inset;
+ }
+
+ QTextEdit{
+     background-color: white;
+     background-attachment: scroll;
+ }
+
+     QPushButton:pressed {
+         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                           stop: 0 #dadbde, stop: 1 #f6f7fa);
+     }
+
+     QPushButton:flat {
+         border: none; /*  没有边框的按钮 */
+     }
+
+     QPushButton:default {
+         border-color: navy; /* 使得按钮显示变得更加突出 */
+     }
+
+
+        QPushButton:open { /* when the button has its menu open */
+         background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                           stop: 0 #dadbde, stop: 1 #f6f7fa);
+     }
+
+     QPushButton::menu-indicator {
+         subcontrol-origin: padding;
+         subcontrol-position: bottom right;
+     }
+
+     QPushButton::menu-indicator:pressed, QPushButton::menu-indicator:open {
+         position: relative;
+         top: 2px; left: 2px; /* shift the arrow by 2 px */
+     }
+
+
+
+QPushButton#pushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;
+}
+
+QPushButton#pushButton:pressed{
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 #dadbde, stop: 1 #f6f7fa);
+  border-radius:5px;
+  border: 1px solid #5F92B2;
+}
+

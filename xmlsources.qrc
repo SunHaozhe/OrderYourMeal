@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/xml">
+        <file alias="menu">menu.xml</file>
+        <file>image/biere.jpg</file>
+        <file>image/Boeuf bourguignon.jpg</file>
+        <file>image/coca.jpg</file>
+        <file>image/Confit de canard et haricots.jpg</file>
+        <file>image/creme brulee.jpg</file>
+        <file>image/Foie gras.jpg</file>
+        <file>image/fois gras.jpg</file>
+        <file>image/help.jpg</file>
+        <file>image/Huitre.jpg</file>
+        <file>image/jus d'orange.jpg</file>
+        <file>image/kebab.png</file>
+        <file>image/menu.jpg</file>
+        <file>image/mouse au chocolat.jpg</file>
+        <file>image/myorder.jpg</file>
+        <file>image/pizza 4 fromages.png</file>
+        <file>image/platDuJour.jpg</file>
+        <file>image/salade de thon.jpg</file>
+        <file>image/service.jpg</file>
+        <file>image/tarte aux pommes.jpeg</file>
+        <file>image/testpic.jpg</file>
+        <file>image/testpic2.png</file>
+        <file>image/testpic3.png</file>
+        <file>image/vin blanc.jpg</file>
+        <file>image/vin rouge.jpg</file>
+        <file>image/index.jpeg</file>
+        <file>image/background.jpg</file>
+    </qresource>
+</RCC>
