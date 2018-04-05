@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>res/cloud_synapses.png</file>
+        <file>res/photo1.png</file>
+        <file>res/logo_telecomparistech_lg.png</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file>res/menu.xml</file>
+    </qresource>
+</RCC>
