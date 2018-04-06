@@ -6,70 +6,92 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
-    <height>471</height>
+    <width>517</width>
+    <height>495</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>13</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
-   <string>AdditionWindow</string>
+   <string>Paiement </string>
   </property>
   <widget class="QLabel" name="billLabel">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>15</y>
+     <y>10</y>
      <width>181</width>
      <height>31</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>17</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Bill of your desk&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Addition&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QRadioButton" name="payForYourselfRadio">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>390</y>
-     <width>141</width>
-     <height>20</height>
+     <x>10</x>
+     <y>410</y>
+     <width>201</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>14</pointsize>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>Pay for yourself</string>
+    <string>Payez pour vous-même</string>
    </property>
   </widget>
   <widget class="QRadioButton" name="payForYourDeskRadio">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>430</y>
-     <width>141</width>
+     <x>10</x>
+     <y>440</y>
+     <width>181</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>14</pointsize>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>Pay for your desk</string>
+    <string>Payez pour votre groupe</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="yourselfPrice">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>390</y>
-     <width>113</width>
+     <x>200</x>
+     <y>410</y>
+     <width>81</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -78,40 +100,34 @@
   <widget class="QLineEdit" name="yourDeskPrice">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>430</y>
-     <width>113</width>
+     <x>200</x>
+     <y>440</y>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
    <property name="readOnly">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QListWidget" name="orderedList">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>50</y>
-     <width>221</width>
-     <height>331</height>
-    </rect>
-   </property>
-   <property name="dragEnabled">
     <bool>true</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="payButton">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>390</y>
-     <width>241</width>
+     <x>290</x>
+     <y>400</y>
+     <width>221</width>
      <height>71</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Times New Roman</family>
      <pointsize>26</pointsize>
      <weight>75</weight>
      <italic>false</italic>
@@ -122,29 +138,16 @@
     </font>
    </property>
    <property name="text">
-    <string>Pay</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="billLabel_2">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>20</y>
-     <width>211</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Food you ordered (yourself):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>Payer</string>
    </property>
   </widget>
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>50</y>
-     <width>341</width>
-     <height>331</height>
+     <width>491</width>
+     <height>271</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -158,21 +161,147 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>201</width>
-      <height>311</height>
+      <width>351</width>
+      <height>251</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QListWidget" name="clientPriceList">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>370</x>
       <y>10</y>
       <width>111</width>
-      <height>311</height>
+      <height>251</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
    </widget>
+  </widget>
+  <widget class="QRadioButton" name="note5">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>360</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Parfait</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="note2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>360</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Mauvais</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="note1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Catastrophique</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="note4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>360</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Bien</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="note3">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>360</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Moyen</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Comment pensez-vous de cette expérience ? &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

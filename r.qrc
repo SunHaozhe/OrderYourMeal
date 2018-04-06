@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>res/cloud_synapses.png</file>
+        <file>res/photo1.png</file>
+        <file>res/logo_telecomparistech_lg.png</file>
+        <file>res/boisson_cafe.jpg</file>
+        <file>res/boisson_coca_cola.jpg</file>
+        <file>res/boisson_eau.jpg</file>
+        <file>res/boisson_jus_dorange.jpg</file>
+        <file>res/boisson_sprite.jpg</file>
+        <file>res/boisson_the.jpg</file>
+        <file>res/desser_tarte_au_potiron.jpeg</file>
+        <file>res/dessert_brownie.jpg</file>
+        <file>res/dessert_creme_glacee.jpg</file>
+        <file>res/dessert_mousse.jpg</file>
+        <file>res/entree_avocat.jpg</file>
+        <file>res/entree_pate_imperial.jpeg</file>
+        <file>res/entree_salade_legume.jpg</file>
+        <file>res/entree_salade_pomme_de_terre.jpg</file>
+        <file>res/entree_tomate_chevre.jpg</file>
+        <file>res/halal_poulet_avec_pomme_de_terre.jpg</file>
+        <file>res/halal_saucisson_du_boeuf.jpg</file>
+        <file>res/plat_boeuf_bourguignon.jpg</file>
+        <file>res/plat_cotelette_du_porc.jpg</file>
+        <file>res/plat_cuisses_de_poulet_roti.jpg</file>
+        <file>res/plat_filet_du_poisson.jpg</file>
+        <file>res/plat_hambuger.jpg</file>
+        <file>res/plat_tagliatelles_au_bacon.jpg</file>
+        <file>res/soupe_au_potiron.jpg</file>
+        <file>res/soupe_au_vermicelles.jpeg</file>
+        <file>res/soupe_cresson.jpeg</file>
+        <file>res/vegetarian_sushi_vegetarian.jpg</file>
+        <file>res/vegetarien_nouilles_vegetarien.jpg</file>
+        <file>res/filter.jpg</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file>res/menu.xml</file>
+    </qresource>
+</RCC>
