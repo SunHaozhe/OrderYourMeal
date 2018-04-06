@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        additionwindow.cpp
+        additionwindow.cpp \
+    evaluation.cpp
 
 HEADERS += \
-        additionwindow.h
+        additionwindow.h \
+    evaluation.h
 
 FORMS += \
-        additionwindow.ui
+        additionwindow.ui \
+    evaluation.ui

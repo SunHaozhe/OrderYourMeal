@@ -88,19 +88,6 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QListWidget" name="orderedList">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>50</y>
-     <width>221</width>
-     <height>331</height>
-    </rect>
-   </property>
-   <property name="dragEnabled">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="QPushButton" name="payButton">
    <property name="geometry">
     <rect>
@@ -170,6 +157,29 @@
       <y>10</y>
       <width>111</width>
       <height>311</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QScrollArea" name="orderedListArea">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>231</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>229</width>
+      <height>329</height>
      </rect>
     </property>
    </widget>
